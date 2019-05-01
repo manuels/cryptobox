@@ -1,0 +1,13 @@
+[package]
+name = "cryptobox"
+version = "0.1.0"
+authors = ["Manuel Schölling <manuel.schoelling@gmx.de>"]
+edition = "2018"
+
+[dependencies]
+futures = "*"
+sodiumoxide = "*"
+nix = "*"
+seccomp = "*"
+bytes = "*"
+
